@@ -1,0 +1,62 @@
+body{
+    margin:0px;
+    color:#302b63;
+    text-align:center;
+}
+header {
+    font-family: "Kaushan Script", serif;
+    font-size: 60px;
+  }
+h1{
+    font-family: "IM Fell English SC", serif;
+    font-size: 45px;
+}
+p{
+    font-family: 'Eczar', serif;
+    font-size: 25px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:#323031;
+  }
+  li {
+    float: right;
+    font-size:25px;
+  }
+  li a {
+    display: block;
+    color: #dc3a35;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #ffc857;
+  }
+  #Main{
+    width: 90%;
+    background: linear-gradient(#084c61 60%, #157381);
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+  }
+  #Bio{
+    width: 90%;
+    background-color: #157381;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+  }
+  #Python_title{
+        width: 90%;
+        background: #544454;
+        color: black;
+        padding: 50px;
+        margin: auto;
+        text-align: center;
+    }
+ 
