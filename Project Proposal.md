@@ -4,9 +4,11 @@ Core User Workflows: I will not be trying to add too many pictures or projects. 
 
 Tuesday:
  * I will begin to make my basic layout and my navbar
+
 Wednesday:
  * I will get my navbar completed and my projects on my webpage
  * I will add my contact information with buttons
+ 
 Thursday:
  * I will make sure it is easily viewable on all platforms and that the mobile layout will be working
  * I will also add all images and finalize all of my projects
