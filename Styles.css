@@ -1,5 +1,11 @@
 header {
     font-family: "Kaushan Script", "sans-serif";
     font-size: 60px;
+  }
+  #main{
+    width: 75%;
+    background-color:#084c61;
+    padding: 50px;
+    margin: auto;
     text-align: center;
   }
