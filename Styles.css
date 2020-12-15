@@ -36,16 +36,8 @@ li a {
 li a:hover {
   background-color: #ffc857;
 }
-.bodya {
-  margin-left: 35px;
-  width: 90%;
-  background: #9f889f;
-  color: black;
-  padding: 50px;
-  margin: auto;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
+a {
+  text-decoration: none;
 }
 .Project-img {
   opacity: 1;
@@ -64,9 +56,20 @@ li a:hover {
   border: 15px solid black;
   border-radius: 0px;
   width: 550px;
-  height: 545px;
+  height: 509px;
   background-color: #735c73;
   margin: 100px;
+}
+.bodya {
+  margin-left: 35px;
+  width: 90%;
+  background: #9f889f;
+  color: black;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 .box2a {
   border: 15px solid black;
