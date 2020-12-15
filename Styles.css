@@ -39,19 +39,17 @@ li a:hover {
 .first {
   margin-left: 35px;
   width: 90%;
-  background: #544454;
+  background: #9f889f;
   color: black;
   padding: 50px;
   margin: auto;
   text-align: center;
 }
 .Project-img {
-  border: 3px solid black;
-  border-radius: 2px;
   opacity: 1;
   display: block;
-  width: 530px;
-  height: 350px;
+  width: 551px;
+  height: 357px;
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
@@ -60,7 +58,19 @@ li a:hover {
   font-size: 20px;
   text-align: left;
 }
-
+.box1{
+  border: 15px solid black;
+  border-radius: 0px;
+  width: 550px;
+  background-color: #735c73;
+}
+#Main{
+  width: 90%;
+  background: linear-gradient(#084c61 60%, #157381);
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+}
 #Bio {
   width: 90%;
   background-color: #157381;
@@ -70,7 +80,7 @@ li a:hover {
 }
 #Python_title {
   width: 90%;
-  background: #544454;
+  background: linear-gradient(#544454, #9f889f );
   color: black;
   padding: 50px;
   margin: auto;
