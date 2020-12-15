@@ -44,8 +44,8 @@ li a:hover {
   padding: 50px;
   margin: auto;
   text-align: center;
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
 }
 .Project-img {
   opacity: 1;
@@ -60,7 +60,7 @@ li a:hover {
   font-size: 20px;
   text-align: left;
 }
-.box1a{
+.box1a {
   border: 15px solid black;
   border-radius: 0px;
   width: 550px;
@@ -68,7 +68,7 @@ li a:hover {
   background-color: #735c73;
   margin: 100px;
 }
-.box2a{
+.box2a {
   border: 15px solid black;
   border-radius: 0px;
   width: 575px;
@@ -83,25 +83,25 @@ li a:hover {
   padding: 50px;
   margin: auto;
   text-align: center;
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
 }
-.box1b{
+.box1b {
   border: 15px solid black;
   border-radius: 0px;
   width: 550px;
   height: 580px;
-  background-color: #853b67;
+  background-color: #c883ac;
   margin: 100px;
 }
-.box2b{
+.box2b {
   border: 15px solid black;
   border-radius: 0px;
   width: 575px;
-  background-color: #853b67;
+  background-color: #c883ac;
   margin: 100px;
 }
-#Main{
+#Main {
   width: 90%;
   background: linear-gradient(#084c61 60%, #157381);
   padding: 50px;
@@ -117,7 +117,7 @@ li a:hover {
 }
 #Python_title {
   width: 90%;
-  background: linear-gradient(#544454, #9f889f );
+  background: linear-gradient(#544454, #9f889f);
   color: black;
   padding: 50px;
   margin: auto;
@@ -125,7 +125,7 @@ li a:hover {
 }
 #HTML_title {
   width: 90%;
-  background: linear-gradient(#ad5389, #dab2ca );
+  background: linear-gradient(#ad5389 50%, #dab2ca);
   color: black;
   padding: 50px;
   margin: auto;
