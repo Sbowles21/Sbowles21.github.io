@@ -1,62 +1,90 @@
-body{
-    margin:0px;
-    color:#302b63;
-    text-align:center;
+body {
+  margin: 0px;
+  color: #302b63;
+  text-align: center;
 }
 header {
-    font-family: "Kaushan Script", serif;
-    font-size: 60px;
-  }
-h1{
-    font-family: "IM Fell English SC", serif;
-    font-size: 45px;
+  font-family: "Kaushan Script", serif;
+  font-size: 60px;
 }
-p{
-    font-family: 'Eczar', serif;
-    font-size: 25px;
-    
+h1 {
+  font-family: "IM Fell English SC", serif;
+  font-size: 45px;
+}
+p {
+  font-family: "Eczar", serif;
+  font-size: 25px;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background:#323031;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #323031;
+}
+li {
+  float: right;
+  font-size: 25px;
+}
+li a {
+  display: block;
+  color: #dc3a35;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #ffc857;
+}
+.first {
+  margin-left: 35px;
+  width: 90%;
+  background: #544454;
+  color: black;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+}
+.Project-img {
+  border: 3px solid black;
+  border-radius: 2px;
+  opacity: 1;
+  display: block;
+  width: 530px;
+  height: 350px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.text {
+  font-family: "Eczar", serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+#Bio {
+  width: 90%;
+  background-color: #157381;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+}
+#Python_title {
+  width: 90%;
+  background: #544454;
+  color: black;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
   }
-  li {
-    float: right;
-    font-size:25px;
+  nav {
+    width: 100%;
   }
   li a {
-    display: block;
-    color: #dc3a35;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 10px;
   }
-  li a:hover {
-    background-color: #ffc857;
-  }
-  #Main{
-    width: 90%;
-    background: linear-gradient(#084c61 60%, #157381);
-    padding: 50px;
-    margin: auto;
-    text-align: center;
-  }
-  #Bio{
-    width: 90%;
-    background-color: #157381;
-    padding: 50px;
-    margin: auto;
-    text-align: center;
-  }
-  #Python_title{
-        width: 90%;
-        background: #544454;
-        color: black;
-        padding: 50px;
-        margin: auto;
-        text-align: center;
-    }
- 
+}
