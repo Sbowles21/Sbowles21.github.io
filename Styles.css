@@ -36,7 +36,7 @@ li a {
 li a:hover {
   background-color: #ffc857;
 }
-.body {
+.bodya {
   margin-left: 35px;
   width: 90%;
   background: #9f889f;
@@ -60,7 +60,7 @@ li a:hover {
   font-size: 20px;
   text-align: left;
 }
-.box1{
+.box1a{
   border: 15px solid black;
   border-radius: 0px;
   width: 550px;
@@ -68,13 +68,40 @@ li a:hover {
   background-color: #735c73;
   margin: 100px;
 }
-.box2{
+.box2a{
   border: 15px solid black;
   border-radius: 0px;
   width: 575px;
   background-color: #735c73;
   margin: 100px;
 }
+.bodyb {
+  margin-left: 35px;
+  width: 90%;
+  background: #dab2ca;
+  color: black;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  display:flex;
+  flex-direction:row;
+}
+.box1b{
+  border: 15px solid black;
+  border-radius: 0px;
+  width: 550px;
+  height: 580px;
+  background-color: #853b67;
+  margin: 100px;
+}
+.box2b{
+  border: 15px solid black;
+  border-radius: 0px;
+  width: 575px;
+  background-color: #853b67;
+  margin: 100px;
+}
+#ad5389
 #Main{
   width: 90%;
   background: linear-gradient(#084c61 60%, #157381);
@@ -97,15 +124,11 @@ li a:hover {
   margin: auto;
   text-align: center;
 }
-@media only screen and (max-width: 768px) {
-  body {
-    width: 100%;
-  }
-  nav {
-    width: 100%;
-  }
-  li a {
-    font-size: 15px;
-    padding: 10px 10px;
-  }
+#HTML_title {
+  width: 90%;
+  background: linear-gradient(#ad5389, #dab2ca );
+  color: black;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
 }
