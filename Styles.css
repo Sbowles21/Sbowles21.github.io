@@ -36,7 +36,7 @@ li a {
 li a:hover {
   background-color: #ffc857;
 }
-.first {
+.body {
   margin-left: 35px;
   width: 90%;
   background: #9f889f;
@@ -44,6 +44,8 @@ li a:hover {
   padding: 50px;
   margin: auto;
   text-align: center;
+  display:flex;
+  flex-direction:row;
 }
 .Project-img {
   opacity: 1;
@@ -62,7 +64,16 @@ li a:hover {
   border: 15px solid black;
   border-radius: 0px;
   width: 550px;
+  height: 545px;
   background-color: #735c73;
+  margin: 100px;
+}
+.box2{
+  border: 15px solid black;
+  border-radius: 0px;
+  width: 575px;
+  background-color: #735c73;
+  margin: 100px;
 }
 #Main{
   width: 90%;
