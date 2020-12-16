@@ -3,18 +3,20 @@ body {
   color: #302b63;
   text-align: center;
 }
+/* Font Families and font sizes */
 header {
   font-family: "Kaushan Script", serif;
-  font-size: 60px;
+  font-size: 45px;
 }
 h1 {
   font-family: "IM Fell English SC", serif;
-  font-size: 45px;
+  font-size: 25px;
 }
 p {
   font-family: "Eczar", serif;
-  font-size: 25px;
+  font-size: 20px;
 }
+/*--editing my nav bar */
 ul {
   list-style-type: none;
   margin: 0;
@@ -39,6 +41,7 @@ li a:hover {
 a {
   text-decoration: none;
 }
+<!---->
 .Project-img {
   opacity: 1;
   display: block;
@@ -77,7 +80,6 @@ a {
   border: 15px solid black;
   border-radius: 0px;
   width: 550px;
-  height: 509px;
   background-color: #735c73;
 }
 
@@ -113,6 +115,9 @@ a {
   width: 575px;
   height: 545px;
   background-color: #c883ac;
+}
+.words{
+  font-size: 25px;
 }
 #background{
   background: linear-gradient(to left bottom, #bdc3c7 35%, #2c3e50);
@@ -170,6 +175,7 @@ a {
   align-items: center;
   justify-content: space-around;
 }
+/* Media Queries */
 @media only screen and (max-width: 600px) {
   nav{
     width: 710px;
