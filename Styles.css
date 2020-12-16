@@ -77,14 +77,14 @@ a {
   flex-direction: row;
 }
 .box1a {
-  border: 15px solid black;
+  border: 15px solid #735c73;
   border-radius: 0px;
   width: 550px;
   background-color: #735c73;
 }
 
 .box2a {
-  border: 15px solid black;
+  border: 15px solid #735c73;
   border-radius: 0px;
   width: 575px;
   background-color: #735c73;
@@ -103,14 +103,14 @@ a {
   flex-direction: row;
 }
 .box1b {
-  border: 15px solid black;
+  border: 15px solid  #c883ac;
   border-radius: 0px;
   width: 550px;
   height: 545px;
   background-color: #c883ac;
 }
 .box2b {
-  border: 15px solid black;
+  border: 15px solid  #c883ac;
   border-radius: 0px;
   width: 575px;
   height: 545px;
