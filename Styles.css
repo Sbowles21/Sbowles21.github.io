@@ -39,8 +39,10 @@ li a:hover {
   background-color: #ffc857;
 }
 a {
+  color: #302b63;
   text-decoration: none;
 }
+
 <!---->
 .Project-img {
   opacity: 1;
@@ -125,6 +127,7 @@ a {
 }
 .phone-num{
   font-size: 20px;
+  color:#302b63;
 }
 #logo {
   font-size: 100px;
