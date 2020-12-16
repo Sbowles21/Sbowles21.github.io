@@ -163,3 +163,32 @@ a {
   display: flex;
   flex-direction: column;
 }
+.known{
+  display: flex;
+  flex-direction: row;
+  font-size: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+  nav{
+    width: 710px;
+  }
+  #Python_title,#HTML_title{
+    width: 610px;
+  }
+  .bodya,.bodyb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:610px;
+    height:710px;
+  }
+  .box1a,.box1b,.box2a,.box2b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+  }
+}
