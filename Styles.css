@@ -47,18 +47,18 @@ a {
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
+.Project-imgf {
+  opacity: 1;
+  display: block;
+  width: 575px;
+  height: 357px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
 .text {
   font-family: "Eczar", serif;
   font-size: 20px;
   text-align: left;
-}
-.box1a {
-  border: 15px solid black;
-  border-radius: 0px;
-  width: 550px;
-  height: 509px;
-  background-color: #735c73;
-  margin: 100px;
 }
 .bodya {
   margin-left: 35px;
@@ -71,12 +71,21 @@ a {
   display: flex;
   flex-direction: row;
 }
+.box1a {
+  border: 15px solid black;
+  border-radius: 0px;
+  width: 550px;
+  height: 509px;
+  background-color: #735c73;
+  margin-left: 110px;
+}
+
 .box2a {
   border: 15px solid black;
   border-radius: 0px;
   width: 575px;
   background-color: #735c73;
-  margin: 100px;
+  margin-left: 110px;
 }
 .bodyb {
   margin-left: 35px;
@@ -93,16 +102,20 @@ a {
   border: 15px solid black;
   border-radius: 0px;
   width: 550px;
-  height: 580px;
+  height: 545px;
   background-color: #c883ac;
-  margin: 100px;
+  margin-left: 110px;
 }
 .box2b {
   border: 15px solid black;
   border-radius: 0px;
   width: 575px;
+  height: 545px;
   background-color: #c883ac;
-  margin: 100px;
+  margin-left: 110px;
+}
+#logo {
+  font-size: 100px;
 }
 #Main {
   width: 90%;
