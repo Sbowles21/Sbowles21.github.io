@@ -1,8 +1,18 @@
+/*multipage styles*/
 body {
   margin: 0px;
   color: #302b63;
   text-align: center;
 }
+#logo {
+  font-size: 100px;
+}
+.text {
+  font-family: "Eczar", serif;
+  font-size: 20px;
+  text-align: left;
+}
+
 /* Font Families and font sizes */
 header {
   font-family: "Kaushan Script", serif;
@@ -16,6 +26,7 @@ p {
   font-family: "Eczar", serif;
   font-size: 20px;
 }
+
 /*--editing my nav bar */
 ul {
   list-style-type: none;
@@ -43,7 +54,7 @@ a {
   text-decoration: none;
 }
 
-<!---->
+/* Styles for Images*/
 .Project-img {
   opacity: 1;
   display: block;
@@ -60,78 +71,8 @@ a {
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
-.text {
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-}
-.bodya {
-  margin-left: 35px;
-  width: 90%;
-  background: #9f889f;
-  color: black;
-  padding: 50px;
-  margin: auto;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
-.box1a {
-  border: 15px solid #735c73;
-  border-radius: 0px;
-  width: 550px;
-  background-color: #735c73;
-}
 
-.box2a {
-  border: 15px solid #735c73;
-  border-radius: 0px;
-  width: 575px;
-  background-color: #735c73;
-}
-.bodyb {
-  margin-left: 35px;
-  width: 90%;
-  background: #dab2ca;
-  color: black;
-  padding: 50px;
-  margin: auto;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
-  display: flex;
-  flex-direction: row;
-}
-.box1b {
-  border: 15px solid  #c883ac;
-  border-radius: 0px;
-  width: 550px;
-  height: 500px;
-  background-color: #c883ac;
-}
-.box2b {
-  border: 15px solid  #c883ac;
-  border-radius: 0px;
-  width: 575px;
-  height: 545px;
-  background-color: #c883ac;
-}
-.words{
-  font-size: 25px;
-}
-#background{
-  background: linear-gradient(to left bottom, #bdc3c7 35%, #2c3e50);
-  height: 750px;
-}
-.phone-num{
-  font-size: 20px;
-  color:#302b63;
-}
-#logo {
-  font-size: 100px;
-}
+/* Biography page*/
 #Main {
   width: 90%;
   background: linear-gradient(#0b6b89 60%, #157381);
@@ -146,6 +87,18 @@ a {
   margin: auto;
   text-align: center;
 }
+.known{
+  display: flex;
+  flex-direction: row;
+  font-size: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+.Bio_text{
+  font-size: 25px;
+}
+
+/*python page styles*/
 #Python_title {
   width: 90%;
   background: linear-gradient(#544454, #9f889f);
@@ -154,6 +107,34 @@ a {
   margin: auto;
   text-align: center;
 }
+.Python-body {
+  margin-left: 35px;
+  width: 90%;
+  background: #9f889f;
+  color: black;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.Python-box1 {
+  border: 15px solid #735c73;
+  border-radius: 0px;
+  width: 550px;
+  background-color: #735c73;
+}
+
+.Python-box2 {
+  border: 15px solid #735c73;
+  border-radius: 0px;
+  width: 575px;
+  background-color: #735c73;
+}
+
+/* HTML page */
 #HTML_title {
   width: 90%;
   background: linear-gradient(#ad5389 50%, #dab2ca);
@@ -162,6 +143,35 @@ a {
   margin: auto;
   text-align: center;
 }
+.Html_body {
+  margin-left: 35px;
+  width: 90%;
+  background: #dab2ca;
+  color: black;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+.Html_box1 {
+  border: 15px solid  #c883ac;
+  border-radius: 0px;
+  width: 550px;
+  height: 500px;
+  background-color: #c883ac;
+}
+.Html_box2 {
+  border: 15px solid  #c883ac;
+  border-radius: 0px;
+  width: 575px;
+  height: 500px;
+  background-color: #c883ac;
+}
+
+/* contact page */
 #contacts{
   font-size: 100px;
   color: black;
@@ -171,13 +181,15 @@ a {
   display: flex;
   flex-direction: column;
 }
-.known{
-  display: flex;
-  flex-direction: row;
-  font-size: 100px;
-  align-items: center;
-  justify-content: space-around;
+#background{
+  background: linear-gradient(to left bottom, #bdc3c7 35%, #2c3e50);
+  height: 750px;
 }
+.phone-num{
+  font-size: 20px;
+  color:#302b63;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 600px) {
   nav{
@@ -190,25 +202,25 @@ a {
     width: 710px;
     height: 1210px;
   }
-  .bodya, .bodyb{
+  .Python-body, .Html_body{
     display: flex;
     flex-direction: column;
     align-items: center;
     width:610px;
     height:1100px;
   }
-  .box1a,.box1b,.box2a,.box2b {
+  .Python-box1,.Python-box2,.Html_box1,.Html_box2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: fit-content;
     height: 610px;
   }
-  .box1b,.box2b{
+  .Python-box2,.Html_box2{
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .box1b{
+  .Html_box1{
     height:500px;
   }
 }
