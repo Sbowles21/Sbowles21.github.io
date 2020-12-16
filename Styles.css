@@ -74,14 +74,12 @@ a {
 
 /* Biography page*/
 #Main {
-  width: 94%;
   background: linear-gradient(#0b6b89 60%, #157381);
   padding: 50px;
   margin: auto;
   text-align: center;
 }
 #Bio {
-  width: 94%;
   background-color: #157381;
   padding: 50px;
   margin: auto;
@@ -100,7 +98,6 @@ a {
 
 /*python page styles*/
 #Python_title {
-  width: 94%;
   background: linear-gradient(#544454, #9f889f);
   color: black;
   padding: 50px;
@@ -109,7 +106,6 @@ a {
 }
 .Python-body {
   margin-left: 35px;
-  width: 94%;
   background: #9f889f;
   color: black;
   padding: 50px;
@@ -136,7 +132,6 @@ a {
 
 /* HTML page */
 #HTML_title {
-  width: 94%;
   background: linear-gradient(#ad5389 50%, #dab2ca);
   color: black;
   padding: 50px;
@@ -145,7 +140,6 @@ a {
 }
 .Html_body {
   margin-left: 35px;
-  width: 94%;
   background: #dab2ca;
   color: black;
   padding: 50px;
