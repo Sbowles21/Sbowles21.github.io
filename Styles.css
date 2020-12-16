@@ -114,6 +114,13 @@ a {
   height: 545px;
   background-color: #c883ac;
 }
+#background{
+  background: linear-gradient(to left bottom, #bdc3c7 35%, #2c3e50);
+  height: 713px;
+}
+.phone-num{
+  font-size: 20px;
+}
 #logo {
   font-size: 100px;
 }
@@ -155,11 +162,4 @@ a {
   align-items: center;
   display: flex;
   flex-direction: column;
-}
-#background{
-  background: linear-gradient(to left bottom, #bdc3c7 35%, #2c3e50);
-  height: 713px;
-}
-.phone-num{
-  font-size: 20px;
 }
