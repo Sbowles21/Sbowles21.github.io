@@ -208,30 +208,34 @@ a {
     width: 710px;
     height: 1210px;
   }
-  .Python-body,
-  .Html_body {
+  #Python-body,
+  #Html_body {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 610px;
     height: 1100px;
   }
-  .Python-box1,
-  .Python-box2,
-  .Html_box1,
-  .Html_box2 {
+  #Python-box1,
+  #Python-box2,
+  #Html_box1,
+  #Html_box2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: fit-content;
     height: 610px;
   }
-  .Python-box2,
-  .Html_box2 {
+  #Python-box2,
+  #Html_box2 {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .Html_box1 {
+  #Html_box1 {
     height: 500px;
   }
+}
+
+@media only screen and (max-width: 1080px){
+
 }
