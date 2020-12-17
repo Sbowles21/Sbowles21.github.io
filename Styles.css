@@ -85,14 +85,14 @@ a {
   margin: auto;
   text-align: center;
 }
-.known{
+.known {
   display: flex;
   flex-direction: row;
   font-size: 100px;
   align-items: center;
   justify-content: space-around;
 }
-.Bio_text{
+.Bio_text {
   font-size: 25px;
 }
 
@@ -104,7 +104,7 @@ a {
   margin: auto;
   text-align: center;
 }
-.Python-body {
+#Python-body {
   margin-left: 35px;
   background: #9f889f;
   color: black;
@@ -116,20 +116,24 @@ a {
   justify-content: space-around;
   flex-direction: row;
 }
-.Python-box1 {
-  border: 15px solid #735c73;
+#Python-box1 {
+  border: 4px solid #735c73;
   border-radius: 0px;
   width: 550px;
   background-color: #735c73;
 }
-
-.Python-box2 {
-  border: 15px solid #735c73;
+#Python-box1:hover {
+  border: 4px solid blue;
+}
+#Python-box2 {
+  border: 4px solid #735c73;
   border-radius: 0px;
   width: 575px;
   background-color: #735c73;
 }
-
+#Python-box2:hover {
+  border: 4px solid blue;
+}
 /* HTML page */
 #HTML_title {
   background: linear-gradient(#ad5389 50%, #dab2ca);
@@ -138,7 +142,7 @@ a {
   margin: auto;
   text-align: center;
 }
-.Html_body {
+#Html_body {
   margin-left: 35px;
   background: #dab2ca;
   color: black;
@@ -150,23 +154,28 @@ a {
   display: flex;
   flex-direction: row;
 }
-.Html_box1 {
-  border: 15px solid  #c883ac;
+#Html_box1 {
+  border: 4px solid #c883ac;
   border-radius: 0px;
   width: 550px;
   height: 500px;
   background-color: #c883ac;
 }
-.Html_box2 {
-  border: 15px solid  #c883ac;
+#Html_box1:hover {
+  border: 4px solid blue;
+}
+#Html_box2 {
+  border: 4px solid #c883ac;
   border-radius: 0px;
   width: 575px;
   height: 500px;
   background-color: #c883ac;
 }
-
+#Html_box2:hover {
+  border: 4px solid blue;
+}
 /* contact page */
-#contacts{
+#contacts {
   font-size: 100px;
   color: black;
   margin: auto;
@@ -175,46 +184,54 @@ a {
   display: flex;
   flex-direction: column;
 }
-#background{
+#background {
   background: linear-gradient(to left bottom, #bdc3c7 35%, #2c3e50);
   height: 750px;
 }
-.phone-num{
+.phone-num {
   font-size: 20px;
-  color:#302b63;
+  color: #302b63;
 }
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
-  nav{
+  nav {
     width: 710px;
   }
-  #Python_title, #HTML_title, #Bio, #Main{
+  #Python_title,
+  #HTML_title,
+  #Bio,
+  #Main {
     width: 610px;
   }
-  #background{
+  #background {
     width: 710px;
     height: 1210px;
   }
-  .Python-body, .Html_body{
+  .Python-body,
+  .Html_body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:610px;
-    height:1100px;
+    width: 610px;
+    height: 1100px;
   }
-  .Python-box1,.Python-box2,.Html_box1,.Html_box2 {
+  .Python-box1,
+  .Python-box2,
+  .Html_box1,
+  .Html_box2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: fit-content;
     height: 610px;
   }
-  .Python-box2,.Html_box2{
+  .Python-box2,
+  .Html_box2 {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .Html_box1{
-    height:500px;
+  .Html_box1 {
+    height: 500px;
   }
 }
