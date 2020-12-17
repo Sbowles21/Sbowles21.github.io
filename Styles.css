@@ -208,8 +208,9 @@ a {
     width: 710px;
     height: 1210px;
   }
-  #Main{
-    height:600px;
+  #Bio {
+    margin: 0px;
+    height: 1000px;
   }
   #Python-body,
   #Html_body {
@@ -236,8 +237,4 @@ a {
   #Html_box1 {
     height: 500px;
   }
-}
-
-@media only screen and (max-width: 1080px){
-
 }
