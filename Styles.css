@@ -208,13 +208,16 @@ a {
     width: 710px;
     height: 1210px;
   }
+  #Main{
+    height:600px;
+  }
   #Python-body,
   #Html_body {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 610px;
-    height: 1100px;
+    height: 1200px;
   }
   #Python-box1,
   #Python-box2,
@@ -224,7 +227,6 @@ a {
     flex-direction: column;
     align-items: center;
     width: fit-content;
-    height: 610px;
   }
   #Python-box2,
   #Html_box2 {
