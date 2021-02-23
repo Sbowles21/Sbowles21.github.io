@@ -9,7 +9,7 @@ body {
   font-family: "Eczar", serif;
   font-size: 20px;
   text-align: left;
-  color:#0b6b89;
+  color: #302b63;
 }
 
 /* Font Families and font sizes */
@@ -57,16 +57,16 @@ a {
 .P1 {
   opacity: 1;
   display: block;
-  width: 610px;
-  height: 357px;
+  width: 615px;
+  height: 400px;
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
-.P2,.H2 {
+.P2 {
   opacity: 1;
   display: block;
-  width: 575px;
-  height: 357px;
+  width: 580px;
+  height: 430px;
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
@@ -78,17 +78,27 @@ a {
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
+.H2 {
+  opacity: 1;
+  display: block;
+  width: 575px;
+  height: 357px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
 .Personal_pic{
   margin-right: 250px;
+  border-radius: 30%;
 }
 /* Biography page*/
 #Main {
-  background: linear-gradient(#0b6b89, #157381,  #bdc3c7);
+  background: linear-gradient(#0b6b89, #157381);
   padding: 50px;
   display: flex;
   flex-direction: row-reverse;
 }
 #Bio {
+  background: linear-gradient(#157381, #178090);
   padding: 50px;
   margin: auto;
   text-align: center;
@@ -127,7 +137,7 @@ a {
   font-size: 50px;
 }
 #Python_title {
-  background: linear-gradient(#544454, #9f889f);
+  background: linear-gradient(#178090, #1c9caf);
   color: black;
   padding: 50px;
   margin: auto;
@@ -137,7 +147,7 @@ a {
 }
 #Python-body {
   margin-left: 35px;
-  background: #9f889f;
+  background: #1c9caf;
   color: black;
   padding: 50px;
   margin: auto;
@@ -148,28 +158,31 @@ a {
   flex-direction: row;
 }
 #Python-box1 {
-  border: 4px solid #907490;
+  border: 4px solid #9ea2a3;
+  height: auto;
+  color: black;
   border-radius: 0px;
   width: 610px;
-  background-color: #907490;
+  background-color: #9ea2a3;
 
 }
-#Python-box1:hover {
+.P1:hover {
   border: 4px solid blue;
 }
 #Python-box2 {
-  border: 4px solid #907490;
+  height: 628px;
+  border: 4px solid #9ea2a3;
   border-radius: 0px;
   width: 580px;
-  background-color: #907490;
+  background-color: #9ea2a3;
 
 }
-#Python-box2:hover {
+.P2:hover {
   border: 4px solid blue;
 }
 /* The Html Section*/
 #HTML_title {
-  background: linear-gradient( #9f889f 75%, #ad5389 );
+  background: linear-gradient( #1c9caf, #1faabe );
   color: black;
   padding: 50px;
   margin: auto;
@@ -179,7 +192,7 @@ a {
 }
 #Html_body {
   margin-left: 35px;
-  background:  #ad5389;
+  background: linear-gradient( #1faabe,#20b3c8 );
   color: black;
   padding: 50px;
   margin: auto;
@@ -190,26 +203,26 @@ a {
   flex-direction: row;
 }
 #Html_box1 {
-  border: 4px solid #c883ac;
+  border: 4px solid #9ea2a3;
   border-radius: 0px;
   width: 555px;
-  height: 590px;
-  background-color: #c883ac;
+  height: 560px;
+  background-color: #9ea2a3;
 
 }
-#Html_box1:hover {
+.H1:hover {
   border: 4px solid blue;
 }
 #Html_box2 {
   
-  border: 4px solid #c883ac;
+  border: 4px solid #9ea2a3;
   border-radius: 0px;
   width: 580px;
   height: 560px;
-  background-color: #c883ac;
+  background-color: #9ea2a3;
   
 }
-#Html_box2:hover {
+.H2:hover {
   border: 4px solid blue;
 }
 /* contact page */
@@ -225,7 +238,7 @@ a {
   height: 100%;
 }
 #background {
-  background: linear-gradient(#bdc3c7 35%, #2c3e50);
+  background: linear-gradient(#20b3c8, #22bed4, 85%, black);
   height: 714px;
 }
 .contact_text{
@@ -340,4 +353,9 @@ a {
     width:600px;
     height: 250px;
   }
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
