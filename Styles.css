@@ -83,13 +83,12 @@ a {
 }
 /* Biography page*/
 #Main {
-  background: linear-gradient(#0b6b89 60%, #157381);
+  background: linear-gradient(#0b6b89, #157381,  #bdc3c7);
   padding: 50px;
   display: flex;
   flex-direction: row-reverse;
 }
 #Bio {
-  background-color: #157381;
   padding: 50px;
   margin: auto;
   text-align: center;
@@ -226,7 +225,7 @@ a {
   height: 100%;
 }
 #background {
-  background: linear-gradient(to left bottom, #bdc3c7 35%, #2c3e50);
+  background: linear-gradient(#bdc3c7 35%, #2c3e50);
   height: 714px;
 }
 .contact_text{
