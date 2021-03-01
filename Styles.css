@@ -11,7 +11,12 @@ body {
   text-align: left;
   color: #302b63;
 }
-
+.TXT{
+  font-family: "Eczar", serif;
+  font-size: 20px;
+  text-align: left;
+  color: #20b3c8;
+}
 /* Font Families and font sizes */
 header {
   font-family: "Kaushan Script", serif;
@@ -148,7 +153,7 @@ a {
 #Python-body {
   margin-left: 35px;
   background: #1c9caf;
-  color: black;
+  color: #1c9caf;
   padding: 50px;
   margin: auto;
   text-align: center;
@@ -158,23 +163,29 @@ a {
   flex-direction: row;
 }
 #Python-box1 {
-  border: 4px solid #9ea2a3;
+  border: 4px solid black;
   height: auto;
-  color: black;
   border-radius: 0px;
   width: 610px;
-  background-color: #9ea2a3;
-
+  background-color: black;
+  font-family: "Eczar", serif;
+  font-size: 20px;
+  text-align: left;
+  color: #1c9caf;
 }
 .P1:hover {
   border: 4px solid blue;
 }
 #Python-box2 {
   height: 628px;
-  border: 4px solid #9ea2a3;
+  border: 4px solid black;
   border-radius: 0px;
   width: 580px;
-  background-color: #9ea2a3;
+  background-color: black;
+  font-family: "Eczar", serif;
+  font-size: 20px;
+  text-align: left;
+  color: #1c9caf;
 
 }
 .P2:hover {
@@ -203,24 +214,30 @@ a {
   flex-direction: row;
 }
 #Html_box1 {
-  border: 4px solid #9ea2a3;
+  border: 4px solid black;
   border-radius: 0px;
   width: 555px;
   height: 560px;
-  background-color: #9ea2a3;
+  background-color: black;
+  font-family: "Eczar", serif;
+  font-size: 20px;
+  text-align: left;
+  color: #20b3c8;
 
 }
 .H1:hover {
   border: 4px solid blue;
 }
 #Html_box2 {
-  
-  border: 4px solid #9ea2a3;
+  border: 4px solid black;
   border-radius: 0px;
   width: 580px;
   height: 560px;
-  background-color: #9ea2a3;
-  
+  background-color: black;
+  font-family: "Eczar", serif;
+  font-size: 20px;
+  text-align: left;
+  color: #20b3c8;
 }
 .H2:hover {
   border: 4px solid blue;
