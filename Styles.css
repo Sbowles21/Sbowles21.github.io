@@ -62,7 +62,7 @@ a {
 .P1 {
   opacity: 1;
   display: block;
-  width: 615px;
+  width: 605px;
   height: 400px;
   transition: 0.5s ease;
   backface-visibility: hidden;
@@ -70,7 +70,7 @@ a {
 .P2 {
   opacity: 1;
   display: block;
-  width: 580px;
+  width: 570px;
   height: 430px;
   transition: 0.5s ease;
   backface-visibility: hidden;
@@ -87,7 +87,7 @@ a {
   opacity: 1;
   display: block;
   width: 575px;
-  height: 357px;
+  height: 375px;
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
@@ -255,7 +255,7 @@ a {
   height: 100%;
 }
 #background {
-  background: linear-gradient(#20b3c8, #22bed4, 85%, black);
+  background: linear-gradient(#20b3c8, #22bed4, 81%, black);
   height: 714px;
 }
 .contact_text{
@@ -370,9 +370,4 @@ a {
     width:600px;
     height: 250px;
   }
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
