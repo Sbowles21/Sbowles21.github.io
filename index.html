@@ -21,128 +21,110 @@
       rel="stylesheet"
       href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
     />
+     <script src="app.js" defer></script>
   </head>
   <body>
-    <div class="nav">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#Contacts">Contact info</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Projects">Projects</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#Top">Top</a>
-            </li>
-          </ul>
+  <div id = "theme" class = "purpletheme">
+  <button id = "changebutton" class = "purplebutton" onClick="change()">Change Theme to<span id="themename"> Next Theme</span></button>
+
+    <div id="Top">
+      <div id="Main">
+        <header class="name">Scott Gregory Bowles Jr.</header>
+        <img class="Personal_pic" src="Images/Me.jpg" />
+        
+      </div>
+      <div id="Bio">
+        <h1 class="About_me">About me</h1>
+        <p class="Bio_text">
+          Hi, my name is Gregory Bowles and I am a BCCA student. I enjoy computer
+          science, welding, Pokemon Trading card game, star wars, anime,
+          manga, building pcs, and collecting pins. I have my NCCER card in
+          welding. I have been all over Mississippi, from Jackson to Tupelo. I
+          have an interest in reading and writing. Computer science has always
+          been my passion.
+        </p>
+        <h1>Coding Languages i know</h1>
+        <div class="known">
+          <i class="fab fa-python"><p>python</p></i>
+          <i class="fab fa-html5"><p>Html</p></i>
+          <i class="fab fa-css3-alt"><p>CSS</p></i>
+          <i class="fab fa-git"><p>Git</p></i>
+          <i class="fas fa-database"><p>SQL</p></i>
+          <i class="fab fa-js"><p>Javascript</p></i>
         </div>
-      </nav>
     </div>
-  <div id="Top">
-    <div id="Main">
-      <header class="name">Scott Gregory Bowles Jr.</header>
-      <img class="Personal_pic" src="Images/Me.jpg" />
-    </div>
-    <div id="Bio">
-      <h1 class="About_me">About me</h1>
-      <p class="Bio_text">
-        Hi, my name is Gregory Bowles and I am a BCCA student. I enjoy computer
-        science, welding, Pokemon TCG (Trading card game), star wars, anime,
-        manga, building pcs, and collecting pins. I have my NCCER card in
-        welding. I have been all over Mississippi, from Jackson to Tupelo. I
-        have an interest in reading and writing. Computer science has always
-        been my passion.
-      </p>
-      <h1>Coding Languages i know</h1>
-      <div class="known">
-        <i class="fab fa-python"><p>python</p></i>
-        <i class="fab fa-html5"><p>Html</p></i>
-        <i class="fab fa-css3-alt"><p>CSS</p></i>
-        <i class="fab fa-git"><p>Git</p></i>
-        <i class="fas fa-database"><p>SQL</p></i>
-      </div>
-  </div>
-  <div id="Projects">
-    <div id="Python_title">
-      <div class="Title">
-      <h1 class="Title_text">My Python Projects</h1>
-      <h1 class="media_title">Projects</h1>
-      <i class="fab fa-python Title_Logo"></i>
-      </div>
-    </div>
+
+
     <div id="Projects">
-    <div id="Python-body">
-        <div id="Python-box1">
-            <h1>Pokedex Searcher</h1>
-            <p>This was a python project where we made a search feature using a database where you could 
-              search by the "Name", "Type", "Weakness", and "Generation" the pokemon were added in. All the way up to gen 3
-            <br>Date Finished: October 2020</p>
-          <a
-          href="https://github.com/BaseCampCoding/fundamentals-of-programming-pt-1-unit-project-gregory-and-jeremiah-b"
-          >
-          <img class="P1" src="Images/Project 1.png" /></a>
-        </div>
-      </a>
-        <div id="Python-box2">
-            <h1>Bank</h1>
-            <p>This was a python banking app we made using Sql in python, loops, classes, functions and SQl Databases.
-            <br>Date Finished: November 2020</p>
+      <div id="Python-body">
+          <div id="Python-box1">
+              <h1>Pokedex Searcher</h1>
+              <p>This was a python project where we made a search feature using a database where you could 
+                search by the "Name", "Type", "Weakness", and "Generation" the pokemon were added in. All the way up to gen 3
+              <br>Date Finished: October 2020</p>
             <a
-        href="https://github.com/BaseCampCoding/unit-project-2-kenia-and-gregory"
-      >
-          <img class="P2" src="Images/Project 2.png" />
-        </div>
-      </a>
-    </div>
-    <div id="HTML_title">
-      <div class="Title">
-        <h1 class="Title_text">My Html Projects</h1>
-        <i class="fab fa-html5 Title_Logo"></i>
+            href="https://github.com/BaseCampCoding/fundamentals-of-programming-pt-1-unit-project-gregory-and-jeremiah-b"
+            >
+            <img class="P1" src="Images/Project 1.png" /></a>
+          </div>
+        </a>
+          <div id="Python-box2">
+              <h1>Bank</h1>
+              <p>This was a python banking app we made using Sql in python, loops, classes, functions and SQl Databases.
+              <br>Date Finished: November 2020</p>
+              <a
+          href="https://github.com/BaseCampCoding/unit-project-2-kenia-and-gregory"
+        >
+            <img class="P2" src="Images/Project 2.png" />
+          </div>
+        </a>
       </div>
-    </div>
-    <div id="Html_body">
-        <div id="Html_box1">
-            <h1>Tribute page</h1>
-            <p>This is my Html Tribute page on the Pokemon Rillaboom. 
-            <br>I used CSS to make the styles.
-            <br>Date Finished: November 2020</p>
-            <a href="https://codepen.io/Sbowles21/full/YzWMGOo">
-          <img class="H1" src="Images/Codepen1.png" />
-        </div>
-      </a>
-        <div id="Html_box2">
-          <div id="TXT">
-              <h1>Technical Documentation</h1>
-              <p>This is my Html Technical Documentation page on C++.
-              <br> I used CSS to make the styles.
-              <br> Date Finished: December 2020.</p>
-              <a href="https://codepen.io/Sbowles21/full/ExyJOXP">
-            <img class="H2" src="Images/Codepen2.png" />
+
+
+
+
+      <div id="Html_body">
+          <div id="Html_box1">
+              <h1>Tribute page</h1>
+              <p>This is my Html Tribute page on the Pokemon Rillaboom. 
+              <br>I used CSS to make the styles.
+              <br>Date Finished: November 2020</p>
+              <a href="https://codepen.io/Sbowles21/full/YzWMGOo">
+            <img class="H1" src="Images/Codepen1.png" />
+          </div>
+        </a>
+          <div id="Html_box2">
+            <div id="TXT">
+                <h1>Technical Documentation</h1>
+                <p>This is my Html Technical Documentation page on C++.
+                <br> I used CSS to make the styles.
+                <br> Date Finished: December 2020.</p>
+                <a href="https://codepen.io/Sbowles21/full/ExyJOXP">
+              <img class="H2" src="Images/Codepen2.png" />
+              </div>
+          </div>
+        </a>
+      </div>
+      </div>
+    <div id="Contacts">
+      <div id="background">
+          <div id="contacts">
+            <div class="github">
+              <a href="https://github.com/Sbowles21">
+                <i class="fab fa-github"><p>Github</p></i>
+              </a>
             </div>
-        </div>
-      </a>
-    </div>
-    </div>
-  <div id="Contacts">
-    <div id="background">
-        <div id="contacts">
-          <div class="github">
-            <a href="https://github.com/Sbowles21">
-              <i class="fab fa-github"><p>Github</p></i>
-            </a>
+            <div class-="LinkdIn">
+            <a href="www.linkedin.com/in/SGB72">
+            <i class="fab fa-linkedin"><p>LinkdIn</p></i>
+            </div>
+            <div class="email">
+              <a href="mailto:sbowles888@gmail.com">
+                <i class="far fa-envelope"><p>Email</p></i>
+              </a>
+            </div>
           </div>
-          <div class-="LinkdIn">
-          <a href="www.linkedin.com/in/SGB72">
-          <i class="fab fa-linkedin"><p>LinkdIn</p></i>
-          </div>
-          <div class="email">
-            <a href="mailto:sbowles888@gmail.com">
-              <i class="far fa-envelope"><p>Email</p></i>
-            </a>
-          </div>
-        </div>
+      </div>
     </div>
   </div>
   </body>
