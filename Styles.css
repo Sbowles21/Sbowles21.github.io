@@ -10,6 +10,19 @@ body {
   background: linear-gradient(#7f53ac, 50%, #647dee);
 }
 .bluebutton {
+  background:#647dee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  color: black;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  height:80px ;
+  width:60px ;
+}
+.purplebutton{
   background:#178090;
   position: absolute;
   top: 0;
@@ -19,17 +32,22 @@ body {
   border-radius: 10px;
   border-style: solid;
   border-color: black;
+  height:80px ;
+  width:60px ;
 }
-.purplebutton{
-  background: #647dee;
+#hide_button{
   position: absolute;
   top: 0;
   left: 0;
   margin: 10px;
+  margin-left: 75px;
+  background: grey;
   color: black;
   border-radius: 10px;
   border-style: solid;
   border-color: black;
+  height:55px ;
+  width:55px ;
 }
 .text {
   font-family: "Eczar", serif;
@@ -54,27 +72,6 @@ h1 {
 p {
   font-family: "Eczar", serif;
   font-size: 20px;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: #323031;
-}
-li {
-  float: right;
-  font-size: 25px;
-}
-li a {
-  display: block;
-  color: #0b6b89;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #79231a;
 }
 a {
   color: #302b63;
@@ -151,7 +148,7 @@ a {
 }
 .name {
   font-size: 60px;
-  margin-right: 290px;
+  margin-right: 28%;
   margin-top: 45px;
   justify-content: center;
 }
@@ -292,4 +289,10 @@ a {
 .Linkdin,
 .email {
   margin: 300px;
+}
+.shown{
+  visibility: visible;
+}
+.hidden{
+  visibility: hidden;
 }
