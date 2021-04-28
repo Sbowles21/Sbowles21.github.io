@@ -6,7 +6,7 @@ let djangocolor = document.getElementById("djangoa")
 let jscolor = document.getElementById("jsa")
 let contactStuff = document.getElementsByClassName("contactStuff")
 
-function change() {
+function changeTheme() {
   if (theme.classList.contains("purpletheme")) {
     theme.classList.remove("purpletheme");
     theme.classList.add("bluetheme");
@@ -14,6 +14,8 @@ function change() {
     theme.classList.remove("bluetheme");
     theme.classList.add("purpletheme");
   }
+}
+function changeText(){
   if (changebutton.classList.contains("purplebutton")) {
     changebutton.classList.remove("purplebutton");
     changebutton.classList.add("bluebutton");
@@ -23,6 +25,8 @@ function change() {
     changebutton.classList.add("purplebutton");
     document.getElementById("themename").textContent = " Blue Theme";
   }
+}
+function textColor(){
   /*To Change Text color*/
   /* Python */
   if(pythoncolor.classList.contains("blueText")){

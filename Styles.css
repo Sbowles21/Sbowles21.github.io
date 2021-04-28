@@ -44,32 +44,6 @@ body {
   height:80px ;
   width:60px ;
 }
-#hide_button{
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 10px;
-  margin-left: 75px;
-  background: grey;
-  color: black;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: black;
-  height:55px ;
-  width:55px ;
-}
-.text {
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-  color: #302b63;
-}
-.TXT {
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-  color: #20b3c8;
-}
 header {
   font-family: "Kaushan Script", serif;
   font-size: 45px;
@@ -128,23 +102,6 @@ a {
   margin-top: 45px;
   justify-content: center;
 }
-.Title_Logo {
-  font-size: 100px;
-  margin-right: 50px;
-}
-.Title {
-  margin-right: 450px;
-  display: flex;
-  flex-direction: row-reverse;
-  color: #302b63;
-}
-.Title_text {
-  font-size: 50px;
-  color: #302b63;
-}
-.media_title {
-  opacity: 0%;
-}
 #Projects{
   display: flex;
   flex-wrap: wrap;
@@ -164,9 +121,6 @@ a {
   border-radius: 2%;
   margin-bottom: 10px;
 }
-.P2:hover {
-  border: 4px solid blue;
-}
 #htmlProject {
   border: 4px solid black;
   border-radius: 0px;
@@ -177,9 +131,6 @@ a {
   font-size: 20px;
   text-align: left;
   border-radius: 2%;
-}
-.H2:hover {
-  border: 4px solid blue;
 }
 #djangoProject{
   height: 40%;
@@ -215,9 +166,6 @@ a {
   width: 100%;
   height: 100%;
 }
-#background {
-  height: 714px;
-}
 .contact_text {
   font-family: "Eczar", serif;
   font-size: 20px;
@@ -226,10 +174,4 @@ a {
 .Linkdin,
 .email {
   margin: 300px;
-}
-.shown{
-  visibility: visible;
-}
-.hidden{
-  visibility: hidden;
 }
