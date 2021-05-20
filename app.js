@@ -1,29 +1,70 @@
-let theme = document.getElementById("theme")
-let changebutton = document.getElementById("changebutton")
-let pythoncolor = document.getElementById("pythona")
-let htmlcolor = document.getElementById("htmla")
-let djangocolor = document.getElementById("djangoa")
-let jscolor = document.getElementById("jsa")
-let contactStuff = document.getElementsByClassName("contactStuff")
+let pythoncolor = document.getElementById("pythona");
+let htmlcolor = document.getElementById("htmla");
+let djangocolor = document.getElementById("djangoa");
+let jscolor = document.getElementById("jsa");
+let contactStuff = document.getElementsByClassName("contactStuff");
+let darkButton = document.getElementById('dark');
+let lightButton = document.getElementById('light');
+let purpleButton = document.getElementById('Purple');
+let blueButton = document.getElementById('Blue');
+let body = document.body;
+let theme = localStorage.getItem('theme');
+let themebox = document.getElementById("boxcolor");
 
-function changeTheme() {
-  if (theme.classList.contains("purpletheme")) {
-    theme.classList.remove("purpletheme");
-    theme.classList.add("bluetheme");
-  } else if (theme.classList.contains("bluetheme")) {
-    theme.classList.remove("bluetheme");
-    theme.classList.add("purpletheme");
-  }
+if (theme) {
+  body.classList.add(theme);
 }
-function changeText(){
-  if (changebutton.classList.contains("purplebutton")) {
-    changebutton.classList.remove("purplebutton");
-    changebutton.classList.add("bluebutton");
-    document.getElementById("themename").textContent = " Purple Theme";
-  } else if (changebutton.classList.contains("bluebutton")) {
-    changebutton.classList.remove("bluebutton");
-    changebutton.classList.add("purplebutton");
-    document.getElementById("themename").textContent = " Blue Theme";
+darkButton.onclick = () => {
+  body.classList.replace('light', 'dark');
+  body.classList.replace('Blue', 'dark');
+  body.classList.replace('Purple', 'dark');
+  localStorage.setItem('theme', 'dark');
+  boxcolor()
+};
+lightButton.onclick = () => {
+  body.classList.replace('dark', 'light');
+  body.classList.replace('Blue', 'light');
+  body.classList.replace('Purple', 'light');
+  localStorage.setItem('theme', 'light');
+  textColor()
+  boxcolor()
+};
+blueButton.onclick = () => {
+  body.classList.replace('dark', 'Blue');
+  body.classList.replace('light', 'Blue');
+  body.classList.replace('Purple', 'Blue');
+  localStorage.setItem('theme', 'Blue');
+  textColor()
+  boxcolor()
+};
+purpleButton.onclick = () => {
+  body.classList.replace('dark', 'Purple');
+  body.classList.replace('light', 'Purple');
+  body.classList.replace('Blue', 'Purple');
+  localStorage.setItem('theme', 'Purple');
+  textColor()
+  boxcolor()
+};
+
+function boxcolor(){
+  if (body.classList.contains('dark')){
+    document.getElementById("pythonProject").id = "pythonProject2"
+    document.getElementById("htmlProject").id = "htmlProject2"
+    document.getElementById("djangoProject").id = "djangoProject2"
+    document.getElementById("jsProject").id = "jsProject2"
+    pythoncolor.classList.add("blackText")
+    htmlcolor.classList.add("blackText")
+    djangocolor.classList.add("blackText")
+    jscolor.classList.add("blackText")
+  }else {
+    document.getElementById("pythonProject2").id = "pythonProject"
+    document.getElementById("htmlProject2").id = "htmlProject"
+    document.getElementById("djangoProject2").id = "djangoProject"
+    document.getElementById("jsProject2").id = "jsProject"
+    pythoncolor.classList.remove("blackText")
+    htmlcolor.classList.remove("blackText")
+    djangocolor.classList.remove("blackText")
+    jscolor.classList.remove("blackText")
   }
 }
 function textColor(){
