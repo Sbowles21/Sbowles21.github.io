@@ -1,233 +1,136 @@
 body {
-  margin: 0px;
-  color: #302b63;
-  text-align: center;
+    margin: 0px;
+    color: #3DA5D9;
+    text-align: center;
+    background: hsla(186, 33%, 94%, 1);
+    background: linear-gradient(180deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1);
 }
-.themechanger{
-  background-color: white;
-  color:black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 10px;
-  text-decoration: none;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: black;
-  height:11% ;
-  width:4% ;
-  list-style-type: none;
-}
-ul{
-  list-style-type: none;
-}
-li{
-  position: absolute;
-  left: 0;
-  margin-top: 0px;
-  margin-left: 10px;
-}
-.light{background-color: #bdd4e7;
-  background-image: linear-gradient(315deg, #8693ab 0%, #bdd4e7 74%);
-  }
 
-.dark{background:black;color:white;
-  }
-
-.Blue{background: linear-gradient(#0b6b89, #157381, #178090);}
-
-.Purple{background: linear-gradient(#7f53ac, 50%, #647dee);}
-
-.blueText{
-  color: #1c9caf;
-}
-.greyText{
-  color:lightgrey;
-}
-.purpleText{
- color:#302b63;
-}
-.blackText{
-  color: black;
-}
 header {
-  font-family: "Kaushan Script", serif;
-  font-size: 45px;
+    font-family: "Kaushan Script", serif;
+    font-size: 45px;
 }
+
 h1 {
-  font-family: "IM Fell English SC", serif;
-  font-size: 25px;
+    font-family: "IM Fell English SC", serif;
+    font-size: 25px;
 }
+
 p {
-  font-family: "Eczar", serif;
-  font-size: 20px;
+    font-family: "Eczar", serif;
+    font-size: 20px;
 }
+
 a {
-  text-decoration: none;
+    text-decoration: none;
+    color: #3DA5D9;
 }
+
 .Personal_pic {
-  margin-left: 25px;
-  margin-right: 25px;
-  border-radius: 10%;
-  border-style: solid;
-  border-color: black;
-  width: 150px;
-  height: auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #3DA5D9;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
 }
 
 #Main {
-  padding: 50px;
-  display: flex;
-  flex-direction: row-reverse;
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
 }
-#Bio {
-  padding: 50px;
-  margin: auto;
-  text-align: center;
-}
-.known {
-  display: flex;
-  flex-direction: row;
-  font-size: 100px;
-  align-items: center;
-  justify-content: space-around;
-}
-.Bio_text {
-  font-size: 25px;
-  margin-bottom: 150px;
-}
-.About_me {
-  font-size: 60px;
-}
-.name {
-  font-size: 60px;
-  margin-right: 28%;
-  margin-top: 45px;
-  justify-content: center;
-}
-#Projects{
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 2%;
-  justify-content: space-evenly;
-  
-}
-#pythonProject {
-  height: 25%;
-  border: 4px solid black;
-  border-radius: 0px;
-  width: 47%;
-  background-color: black;
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-  border-radius: 2%;
-  margin-bottom: 10px;
-}
-#htmlProject {
-  border: 4px solid black;
-  border-radius: 0px;
-  width: 47%;
-  height: 30%;
-  background-color: black;
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-  border-radius: 2%;
-}
-#djangoProject{
-  height: 40%;
-  border: 4px solid black;
-  border-radius: 0px;
-  width: 47%;
-  background-color: black;
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-  border-radius: 2%;
-}
-#jsProject{
-  border: 4px solid black;
-  border-radius: 0px;
-  width: 47%;
-  height: 30%;
-  background-color: black;
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-  border-radius: 2%;
-}
-#pythonProject2 {
-  height: 25%;
-  border: 4px solid white;
-  border-radius: 0px;
-  width: 47%;
-  background-color: white;
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-  border-radius: 2%;
-  margin-bottom: 10px;
-  color:black;
 
+#Bio {
+    padding: 50px;
+    margin: auto;
+    text-align: center;
 }
-#htmlProject2 {
-  border: 4px solid white;
-  border-radius: 0px;
-  width: 47%;
-  height: 30%;
-  background-color: white;
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-  border-radius: 2%;
-  color:black;
+
+.known {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    align-items: center;
+    justify-content: space-around;
 }
-#djangoProject2{
-  height: 40%;
-  border: 4px solid white;
-  border-radius: 0px;
-  width: 47%;
-  background-color: white;
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-  border-radius: 2%;
-  color:black;
+
+.Bio_text {
+    font-size: 25px;
+    margin-bottom: 150px;
 }
-#jsProject2{
-  border: 4px solid white;
-  border-radius: 0px;
-  width: 47%;
-  height: 30%;
-  background-color: white;
-  font-family: "Eczar", serif;
-  font-size: 20px;
-  text-align: left;
-  border-radius: 2%;
-  color:black;
+
+.About_me {
+    font-size: 60px;
 }
-#contacts {
-  font-size: 100px;
-  color: black;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
+
+.name {
+    font-size: 60px;
+    margin-right: 28%;
+    margin-top: 45px;
+    justify-content: center;
 }
-.contact_text {
-  font-family: "Eczar", serif;
-  font-size: 20px;
+
+#Projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    justify-content: space-evenly;
 }
-.github,
-.Linkdin,
-.email {
-  margin: 300px;
+
+#python {
+    border: 4px solid #3DA5D9;
+    border-radius: 0px;
+    background-color: #ABC8D6;
+    width: 47%;
+    height: 30%;
+    font-family: "Eczar", serif;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 2%;
+}
+
+#html {
+    border: 4px solid black;
+    border-radius: 0px;
+    width: 47%;
+    height: 30%;
+    background-color: black;
+    font-family: "Eczar", serif;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 2%;
+}
+
+#django {
+    height: 40%;
+    border: 4px solid black;
+    border-radius: 0px;
+    width: 47%;
+    background-color: black;
+    font-family: "Eczar", serif;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 2%;
+}
+
+#js {
+    border: 4px solid black;
+    border-radius: 0px;
+    width: 47%;
+    height: 30%;
+    background-color: black;
+    font-family: "Eczar", serif;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 2%;
 }
