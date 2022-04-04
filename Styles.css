@@ -1,3 +1,5 @@
+/*Whole Page*/
+
 body {
     margin: 0px;
     color: #3DA5D9;
@@ -29,13 +31,14 @@ a {
     color: #3DA5D9;
 }
 
+
+/* Top Of Page */
+
 .Personal_pic {
-    margin-left: 25px;
-    margin-right: 25px;
     border-radius: 10%;
     border-style: solid;
     border-color: #3DA5D9;
-    width: 150px;
+    width: 15%;
     height: auto;
     position: absolute;
     top: 0;
@@ -44,8 +47,7 @@ a {
 }
 
 #Main {
-    padding: 50px;
-    display: flex;
+    margin-left: -5%;
     flex-direction: row-reverse;
 }
 
@@ -73,18 +75,22 @@ a {
 }
 
 .name {
-    font-size: 60px;
-    margin-right: 28%;
+    font-size: 500%;
     margin-top: 45px;
     justify-content: center;
 }
 
+
+/* Bottom Of Page */
+
 #Projects {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 2%;
-    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #python {
@@ -97,40 +103,52 @@ a {
     font-size: 20px;
     text-align: left;
     border-radius: 2%;
+    margin-bottom: .3%;
 }
 
 #html {
-    border: 4px solid black;
+    border: 4px solid #3DA5D9;
     border-radius: 0px;
+    background-color: #ABC8D6;
     width: 47%;
     height: 30%;
-    background-color: black;
     font-family: "Eczar", serif;
     font-size: 20px;
     text-align: left;
     border-radius: 2%;
+    margin-bottom: .3%;
 }
 
 #django {
-    height: 40%;
-    border: 4px solid black;
+    border: 4px solid #3DA5D9;
     border-radius: 0px;
+    background-color: #ABC8D6;
     width: 47%;
-    background-color: black;
+    height: 30%;
+    font-family: "Eczar", serif;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 2%;
+    margin-bottom: .3%;
+}
+
+#js {
+    border: 4px solid #3DA5D9;
+    border-radius: 0px;
+    background-color: #ABC8D6;
+    width: 47%;
+    height: 30%;
     font-family: "Eczar", serif;
     font-size: 20px;
     text-align: left;
     border-radius: 2%;
 }
 
-#js {
-    border: 4px solid black;
-    border-radius: 0px;
-    width: 47%;
-    height: 30%;
-    background-color: black;
-    font-family: "Eczar", serif;
-    font-size: 20px;
-    text-align: left;
-    border-radius: 2%;
-}
+
+/* @media only screen and ( max-width: 1200px) {
+    .name {
+        font-size: 200%;
+        margin-top: 45px;
+        justify-content: center;
+    }
+ } */
