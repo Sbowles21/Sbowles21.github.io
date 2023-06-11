@@ -75,7 +75,7 @@ a {
 }
 
 .name {
-    font-size: 500%;
+    font-size: 331%;
     margin-top: 45px;
     justify-content: center;
 }
@@ -101,7 +101,6 @@ a {
     height: 30%;
     font-family: "Eczar", serif;
     font-size: 20px;
-    text-align: left;
     border-radius: 2%;
     margin-bottom: .3%;
 }
@@ -114,7 +113,6 @@ a {
     height: 30%;
     font-family: "Eczar", serif;
     font-size: 20px;
-    text-align: left;
     border-radius: 2%;
     margin-bottom: .3%;
 }
@@ -127,7 +125,6 @@ a {
     height: 30%;
     font-family: "Eczar", serif;
     font-size: 20px;
-    text-align: left;
     border-radius: 2%;
     margin-bottom: .3%;
 }
@@ -140,15 +137,13 @@ a {
     height: 30%;
     font-family: "Eczar", serif;
     font-size: 20px;
-    text-align: left;
     border-radius: 2%;
 }
 
-
-/* @media only screen and ( max-width: 1200px) {
+@media only screen and ( max-width: 800px) {
     .name {
-        font-size: 200%;
+        font-size: 172%;
         margin-top: 45px;
         justify-content: center;
     }
- } */
+}
