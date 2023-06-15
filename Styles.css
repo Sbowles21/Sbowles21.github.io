@@ -1,11 +1,12 @@
 html {
     scroll-behavior: smooth;
 }
+body{
+    margin: 0;
+}
 .Nav-Abt{
     background: #dcdcdc;
-    position: absolute;
-    height: 43%;
-    width: 100%;
+    height: 68vh;
 }
 .topnav {
     background-color: #dcdcdc;
@@ -37,13 +38,39 @@ html {
 }
 .AbtMe{
     font-family: "Cormorant Infant";
-    margin-left: 37%;
+    margin-left: 30%;
+    margin-top: 20vh;
 }
 .AbtMe h1{
-    font-size: 45px;
+    font-size: 5em;
 }
 .AbtMe h2{
-    font-size: 22px;
-    margin-left: 3%;
+    font-size: 2em;
+    margin-left: 12%;
 }
+.Skills{
+    display: flex;
+    background-color:white;
+    margin-top: 0%;
+}
+.skills-header{
+    Color: #313131;
+    font-size: 3em;
+    position: absolute;
+    left: 40%;
+    top: 70vh;
+}
+.skill-sections{
+    overflow: hidden;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    color: black;
+    list-style: none;
+}
+.skill{
+    line-height: 50px;
+    font-size: 1.5em;
+    text-align: center;
 
+}
