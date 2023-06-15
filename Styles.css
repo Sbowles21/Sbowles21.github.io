@@ -28,14 +28,6 @@ body{
     font-family: "Cormorant Infant";
     font-size: xx-large;
 }
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
 .AbtMe{
     font-family: "Cormorant Infant";
     margin-left: 30%;
@@ -46,10 +38,9 @@ body{
 }
 .AbtMe h2{
     font-size: 2em;
-    margin-left: 12%;
+    margin-left: 9%;
 }
 .Skills{
-    display: flex;
     background-color:white;
     margin-top: 0%;
 }
@@ -60,17 +51,25 @@ body{
     left: 40%;
     top: 70vh;
 }
-.skill-sections{
-    overflow: hidden;
+.skill-sectionsH{
     display: flex;
     margin-top: 10%;
-    justify-content: space-between;
     color: black;
     list-style: none;
+    justify-content: space-evenly;
 }
 .skill{
-    line-height: 50px;
-    font-size: 1.5em;
+    line-height: 25vh;
+    font-size: 2em;
     text-align: center;
-
+}
+.skill-sectionsP{
+    display: flex;
+    color: black;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.skillp{
+    line-height: vh;
+    font-size: 1.5em;
 }
